@@ -2,10 +2,10 @@ body {
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   margin: 0;
 }
-
+/*navbar*/
 nav {
   width: 73%;
-  height: 38px;
+  height: 34px;
   display: flex;
   flex-direction: row;
   background-color: beige;
@@ -14,6 +14,7 @@ nav {
   top: 83px;
   left: 13.5%;
   border-radius: 5px;
+  z-index: 1;
 }
 
 .nav {
@@ -26,13 +27,122 @@ nav {
 }
 
 .nav span,
-.nav i,
-.nav input {
+.nav img,
+.nav-end input {
   margin: 0 auto;
+}
+
+.nav img {
+  width: 22px;
+}
+
+.nav-end {
+  flex: 1.3;
+  display: flex;
+  align-items: center;
+  border-left: 1px solid #555;
+  background: rgb(137,137,137);
+  background: linear-gradient(180deg, rgba(137,137,137,1) 0%, rgba(99,99,99,1) 45%, rgba(95,95,95,1) 53%, rgba(101,101,101,1) 72%, rgba(135,135,135,1) 90%, rgba(141,141,141,1) 100%);
+}
+
+.nav-end input {
+  width: 104px;
+  height: 22px;
+  border-radius: 10px;
+  background: rgb(137,137,137);
+  background: linear-gradient(180deg, rgba(137,137,137,1) 0%, rgba(99,99,99,1) 45%, rgba(95,95,95,1) 53%, rgba(101,101,101,1) 72%, rgba(135,135,135,1) 90%, rgba(141,141,141,1) 100%);
+}
+
+.nav-end img {
+  position: absolute;
+  margin-left: 25px;
+  width: 13.5px;
 }
 
 .nav span {
   color: white;
   font-weight: lighter;
   font-size: 13px;
+  position: relative;
 }
+/*header*/
+header {
+  width: 100%;
+  height: auto;
+  margin-top: 0;
+  text-align: center;
+  background-image: url(img/background.jpg);
+  background-size: 105vw;
+  background-repeat: no-repeat;
+  background-position: -45px -773px;
+  position: relative;
+}
+
+.header {
+    padding-top: 6px;
+    box-sizing: content-box;
+    height: 530px;
+    margin: 0 auto;
+    width: 55%;
+}
+
+header h1 {
+  color: white;
+  font-size: 62px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  margin-top: 150px;
+  margin-bottom: 10px;
+}
+
+header a {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 27px;
+  text-decoration: none;
+  line-height: 40px;
+}
+
+.header-text a {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 23px;
+  text-decoration: none;
+}
+
+.header-text {
+  margin: 20px 0 145px 0;
+}
+/*Images Grid*/
+.images {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.image img {
+  flex: 1;
+  width: 335px;
+  height: 201px;
+  object-fit: cover;
+  margin: 2px 1px 0 1px;
+}
+
+.image-1 img {
+    flex: 1;
+    width: 337px;
+    height: 201px;
+    object-fit: cover;
+    margin: 2px 0 0 1px; 
+}
+/*Footer first part */
+.footer {
+    width: 73%;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+
