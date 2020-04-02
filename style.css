@@ -139,10 +139,90 @@ header a {
 }
 /*Footer first part */
 .footer {
-    width: 73%;
-    display: flex;
-    margin: 0 auto;
+  width: 73%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  margin-top: 10px;
 }
+
+.shop {
+  flex: 1.2;
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1.25;
+}
+
+.links .e-e {
+  justify-content: space-around;
+  border-left: 1px solid #cccccc;
+}
+
+.links .first-e {
+    justify-content: space-around;
+  }
+
+.links div a {
+  margin-left: 7px;
+}
+
+.links div span {
+  padding-top: 0;
+  align-items: center;
+  display: flex;
+}
+
+.links div img {
+    padding-top: 0;
+    align-items: center;
+    display: flex;
+    margin-left: 7px;
+  }
+
+
+.f-text {
+  font-size: 10px;
+  color: #6E6E6E;
+  text-decoration: none;
+}
+
+.lel {
+  font-size: 10px;
+  text-decoration: none;
+  color: #0088CC;
+}
+/*footer second part*/
+footer {
+  display: flex;
+  width: 73%;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+.l-l {
+  border-left: 1px solid #cccccc;
+  margin-left: 7px;
+  padding-left: 7px;
+}
+
+.l-l span {
+    align-items: center;
+    display: flex;
+}
+
+.lol {
+    align-items: center;
+    display: flex;
+}
+
 
 
 
