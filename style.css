@@ -83,7 +83,7 @@ header {
     box-sizing: content-box;
     height: 530px;
     margin: 0 auto;
-    width: 55%;
+    width: 60%;
 }
 
 header h1 {
@@ -97,18 +97,17 @@ header h1 {
 
 header a {
   color: white;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 27px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 31px;
   text-decoration: none;
   line-height: 40px;
 }
 
 .header-text a {
   color: white;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 500;
-  font-size: 23px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
   text-decoration: none;
 }
 
