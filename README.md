@@ -24,5 +24,6 @@ Getting Started First, visit this website https://raw.githack.com/. There, you w
 
 - Github: [@emiliocm9](https://github.com/emiliocm9)
 -Twitter: [@emiliocm31](https://twitter.com/emiliocm31)
+-Email: [emilio.contreras97@gmail.com]
 
 Show your support Give a ⭐️ if you like this project!
