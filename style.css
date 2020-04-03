@@ -45,6 +45,7 @@ nav {
 
 .nav img {
   width: 22px;
+  margin-top: 3px;
 }
 
 .nav-end {
@@ -75,11 +76,13 @@ nav {
   width: 13.5px;
 }
 
-.nav span {
+.nav a {
   color: white;
   font-weight: lighter;
   font-size: 13px;
   position: relative;
+  text-decoration: none;
+  margin: 0 auto;
 }
 
 /* header */
@@ -93,6 +96,10 @@ header {
   background-repeat: no-repeat;
   background-position: -45px -773px;
   position: relative;
+}
+
+header:hover {
+  cursor: pointer;
 }
 
 .header {
@@ -126,6 +133,10 @@ header a {
   font-family: 'Roboto', sans-serif;
   font-size: 25px;
   text-decoration: none;
+}
+
+.header-text a:hover {
+  text-decoration: underline;
 }
 
 .fa-play-circle {
