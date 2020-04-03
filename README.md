@@ -16,7 +16,7 @@ Additional description about the project and its features.
 ## Live Webpage
 Getting Started First, visit this website https://raw.githack.com/. There, you will see an empty input where you can paste the link of our Github repositorie's html file. This is going to give you a link right below a text "Use this URL in production"; please copy that link and paste it on your browser. ¡You will see our webpage once the browser finishes loading.
 
-[Click Here](https://rawcdn.githack.com/emiliocm9/Building-with-Backgrounds-and-Gradients/805ced7828f3b3d7bbc10fbf46d7c43257078e80/index.html)
+[Click Here](https://rawcdn.githack.com/emiliocm9/Building-with-Backgrounds-and-Gradients/1765c68c21e87135ae5edc7606ab20e61ccf8bc1/index.html)
 
 ## Authors
 
