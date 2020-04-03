@@ -76,6 +76,15 @@ nav {
   width: 13.5px;
 }
 
+header a {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 31px;
+  text-decoration: none;
+  line-height: 40px;
+}
+
 .nav a {
   color: white;
   font-weight: lighter;
@@ -117,15 +126,6 @@ header h1 {
   margin-bottom: 10px;
 }
 
-header a {
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 200;
-  font-size: 31px;
-  text-decoration: none;
-  line-height: 40px;
-}
-
 .header-text a {
   color: white;
   font-family: 'Roboto', sans-serif;
@@ -135,6 +135,10 @@ header a {
 
 .header-text a:hover {
   text-decoration: underline;
+}
+
+.links div a {
+  margin-left: 7px;
 }
 
 .fa-play-circle {
@@ -204,10 +208,6 @@ header a {
 
 .links .first-e {
   justify-content: space-around;
-}
-
-.links div a {
-  margin-left: 7px;
 }
 
 .l-l span {
