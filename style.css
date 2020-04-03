@@ -88,14 +88,12 @@ nav {
 /* header */
 header {
   width: 100%;
-  height: auto;
   margin-top: 0;
   text-align: center;
   background-image: url(img/background.jpg);
   background-size: 105vw;
   background-repeat: no-repeat;
-  background-position: -45px -773px;
-  position: relative;
+  background-position: 53% 100%;
 }
 
 header:hover {
@@ -155,20 +153,26 @@ header a {
   flex-direction: row;
 }
 
+.image {
+  width: 25%;
+}
+
 .image img {
   flex: 1;
-  width: 335px;
-  height: 201px;
+  width: 100%;
   object-fit: cover;
   margin: 2px 1px 0 1px;
 }
 
 .image-1 img {
   flex: 1;
-  width: 337px;
-  height: 201px;
+  width: 100%;
   object-fit: cover;
-  margin: 2px 0 0 1px;
+  margin: 2px 0 0 0;
+}
+
+.image-1 {
+  width: 25%;
 }
 
 /* Footer first part */
